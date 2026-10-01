@@ -1,9 +1,9 @@
-from Maths import xyz
-print(xyz)
+import requests
+
+print(requests.get("https://google.com").text)
+
+import math as m
+print(m.log10(20))
+
 from Maths.calc import age
-age=50
 print(age)
-import math
-b=math.ceil(2.6)
-print(b)
-print(math.floor(12.9))
